@@ -30,11 +30,11 @@ jobs:
         pip install pytest-cov
         pip install orjson
     - name: Test with pytest
-      run: pytest main_test.py --doctest-modules --junitxml=junit/test-results.xml
+      run: pytest main_test.py -s --doctest-modules --html=pytest_report.html
     - name: Upload pytest test results
       uses: actions/upload-artifact@v3
       with:
         name: pytest-results
-        path: junit/test-results.xml
+        path: pytest_report.html
       if: ${{ always() }}
 
