@@ -1,5 +1,4 @@
 import main
-import filecmp
 import orjson
 
 def test_main_S():

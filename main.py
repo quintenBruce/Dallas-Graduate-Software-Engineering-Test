@@ -1,5 +1,4 @@
 import orjson
-import os
 
 def main(fileName: str):
     f = open(fileName, "r")
