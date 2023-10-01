@@ -31,13 +31,3 @@ def test_main_L():
     output = f.read()
     y = orjson.loads(output)
     assert(x == y)
-
-# def test_main_XL():
-#     main.main("tests/output/t_outputXL.json")
-#     f = open("tests/records/t_recordsXL.json", "r")
-#     output = f.read()
-#     x = orjson.loads(output)
-#     f = open("records.json", "r")
-#     output = f.read()
-#     y = orjson.loads(output)
-#     assert(x == y)
