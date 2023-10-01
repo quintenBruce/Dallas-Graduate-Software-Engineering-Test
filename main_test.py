@@ -1,6 +1,9 @@
 import main
 import orjson
 
+
+
+#test 3 different sizes of input
 def test_main_S():
     main.main("tests/output/t_outputS.json")
     f = open("tests/records/t_recordsS.json", "r")
