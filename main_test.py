@@ -4,6 +4,7 @@ import orjson
 
 
 #test 3 different sizes of input
+# run this test with pytest main_test.py -s
 def test_main_S():
     f = open("tests/output/t_outputS.json", "r")
     output = f.read()
