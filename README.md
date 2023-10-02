@@ -63,7 +63,7 @@ https://github.com/quintenBruce/Dallas-Graduate-Software-Engineering-Test/action
 I have assumed that
 - The output file may contain START events without corresponding END events, and vice versa.
 - A START event occurs before its corresponding END event.
-- All events in the output file have the same fields.
+- All events in the output file have the same field domains.
 - The rental company needs the summary records in a new JSON file.
 
 ## Approach
