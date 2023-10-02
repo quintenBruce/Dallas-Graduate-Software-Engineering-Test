@@ -4,12 +4,12 @@ Assignment: Develop an application that parses an output file and generates a su
 
 
 ## Repository Layout
-**main.py** - The solution to the assignment\
-**records.json** - The .json file produced by main.py that contains a list of summary records.  /
-**manualTest.py** - Python file to manually test main.py. See https://github.com/quintenBruce/Dallas-Graduate-Software-Engineering-Test/tree/main#run-locally \
-**main_test.py** - pytest file used to test main.test. See https://github.com/quintenBruce/Dallas-Graduate-Software-Engineering-Test/tree/main#run-locally \
-**tests/output** - Folder containing json files used by main_test.py and manualTest.py to test main.py. \
-**tests/records** - Folder containing the solutions to corrosponding files in tests/output. These files are used to verify the .json file produced by main.py\
+**[main.py](main.py)** - The solution to the assignment\
+**[records.json](records.json)** - The .json file produced by main.py that contains a list of summary records.  /
+**[manualTest.py](manualTest.py)** - Python file to manually test main.py. See https://github.com/quintenBruce/Dallas-Graduate-Software-Engineering-Test/tree/main#run-locally \
+**[main_test.py](main_test.py)** - pytest file used to test main.test. See https://github.com/quintenBruce/Dallas-Graduate-Software-Engineering-Test/tree/main#run-locally \
+**[tests/output](tests/output)** - Folder containing json files used by main_test.py and manualTest.py to test main.py. \
+**[tests/records](tests/records)** - Folder containing the solutions to corrosponding files in tests/output. These files are used to verify the .json file produced by main.py\
 
 
 ## Run Locally
