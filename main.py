@@ -2,7 +2,7 @@ import orjson # library for fast json parsing
 
 
 
-# main function that takes in a file path pointing to a json file of START and END events. Writes a json file of summary records
+# main function that takes in the file path of a json file of START and END events. Writes a json file of summary records to records.json
 def main(outputFilePath: str):
     f = open(outputFilePath, "r")
     output = f.read()
